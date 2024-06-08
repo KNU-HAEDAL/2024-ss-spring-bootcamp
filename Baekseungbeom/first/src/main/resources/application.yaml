@@ -1,0 +1,8 @@
+
+##h2 드라이버 사용
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb #연결할 url 이름, 메모리에 올리는,, 없어도 뒤에 이름대로 만들어준다
+    driver-class-name: org.he.Driver #
+    username: sa
+    password: 
